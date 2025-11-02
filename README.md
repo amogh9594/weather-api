@@ -24,3 +24,15 @@ This repository contains everything needed to run locally or deploy to a host (R
    .venv\Scripts\activate
    # macOS / Linux
    source .venv/bin/activate
+   
+2. Install dependencies:
+   `pip install -r requirements.txt`
+
+3. Run with Uvicorn:
+    `python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000`
+
+4. Test:
+   `http://127.0.0.1:8000/`
+   `http://127.0.0.1:8000/weather?city=London`
+   `http://127.0.0.1:8000/forecast?city=London`
+
