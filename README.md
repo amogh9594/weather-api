@@ -11,7 +11,7 @@ This repository contains everything needed to run locally or deploy to a host (R
 ## Files
 - `main.py` — main FastAPI app (defines `app = FastAPI()`).
 - `requirements.txt` — Python dependencies.
-- `vercel.json` — config for Vercel deployments.
+- `vercel.json` — Optional config for Vercel deployments.
 - `README.md` — this file.
 
 ---
