@@ -32,7 +32,7 @@ This repository contains everything needed to run locally or deploy to a host (R
     `python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000`
 
 4. Test:
-   4.1. `http://127.0.0.1:8000/`
-   4.2. `http://127.0.0.1:8000/weather?city=London`
-   4.3. `http://127.0.0.1:8000/forecast?city=London`
+   - `http://127.0.0.1:8000/`
+   - `http://127.0.0.1:8000/weather?city=London`
+   - `http://127.0.0.1:8000/forecast?city=London`
 
